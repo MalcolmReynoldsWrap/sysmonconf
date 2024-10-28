@@ -587,7 +587,7 @@
 			<TargetFilename condition="begin with">C:\Windows\System32\drivers\DriverData\Intel\IPF\dv\</TargetFilename> <!-- Intel Driver Update-->
 			<TargetFilename condition="begin with">C:\ProgramData\CentraStage\</TargetFilename> <!-- Datto RMM-->
 			<TargetFilename condition="begin with">C:\Windows\SystemTemp\__PSScriptPolicyTest_</TargetFilename> <!-- Datto RMM-->
-			<TargetFilename condition="contains">\Local\Temp\__PSScriptPolicyTest_</TargetFileName>
+			<TargetFilename condition="contains">\Local\Temp\__PSScriptPolicyTest_</TargetFilename>
 			<Image condition="is">C:\Program Files\Microsoft Azure AD Sync\Bin\miiserver.exe</Image>
 			<!--SECTION: Microsoft-->
 			<Image condition="is">C:\Program Files (x86)\EMET 5.5\EMET_Service.exe</Image> <!--Microsoft:EMET: Writes to C:\Windows\AppPatch\-->
