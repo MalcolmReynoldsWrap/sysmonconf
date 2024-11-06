@@ -495,6 +495,9 @@
 	<RuleGroup name="" groupRelation="or">
 		<FileCreate onmatch="exclude">
 			<!--SECTION: FileCreated RTI Exclusions-->
+			<Image condition="is">C:\Program Files (x86)\Solutionreach\Notify\Notify.exe</Image> <!--Solution Reach Update-->
+			<TargetFilename condition="contains">getpaths.cmd</TargetFilename> <!-- Application Compatability-->
+			<Image condition="contains">AppData\Local\Microsoft\EdgeUpdate\Install\</Image> <!--Edge update-->
 			<TargetFilename condition="begin with">C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\DataCollection\</TargetFilename> <!-- Windows Defender Updates-->
 			<TargetFilename condition="begin with">C:\Windows\System32\drivers\DriverData\Intel\IPF\dv\</TargetFilename> <!-- Intel Driver Update-->
 			<TargetFilename condition="begin with">C:\ProgramData\CentraStage\</TargetFilename> <!-- Datto RMM-->
