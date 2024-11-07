@@ -310,7 +310,11 @@
 	<RuleGroup name="" groupRelation="or">
 		<NetworkConnect onmatch="exclude">
 			<!--SECTION: RTI Network Connections-->
+<<<<<<< HEAD
 			<Image condition="begin with">C:\ProgramData\CentraStage\AEMAgent\</Image>
+=======
+			<Image condition="is">C:\ProgramData\CentraStage\AEMAgent\AEMAgent.exe</Image>		
+>>>>>>> parent of cac9c48 (Update sysmonconfig-export.xml)
 			<!--SECTION: Microsoft-->
 			<Image condition="begin with">C:\ProgramData\Microsoft\Windows Defender\Platform\</Image>
 			<Image condition="end with">AppData\Local\Microsoft\Teams\current\Teams.exe</Image> <!--Microsoft: Teams-->
@@ -322,7 +326,6 @@
 			<DestinationIp condition="is">72.21.91.29</DestinationIp> <!--Digicert [ https://otx.alienvault.com/indicator/ip/72.21.91.29 ] -->
 			<!--Section: Loopback Addresses-->
 			<DestinationIp condition="is">127.0.0.1</DestinationIp> <!--Credit @ITProPaul-->
-			<DestinationIp condition="is">0:0:0:0:0:0:0:1</DestinationIp>
 			<DestinationIp condition="begin with">fe80:0:0:0</DestinationIp> <!--Credit @ITProPaul-->
 		</NetworkConnect>
 	</RuleGroup>
