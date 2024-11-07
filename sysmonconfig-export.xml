@@ -310,9 +310,7 @@
 	<RuleGroup name="" groupRelation="or">
 		<NetworkConnect onmatch="exclude">
 			<!--SECTION: RTI Network Connections-->
-			<Image condition="is">C:\ProgramData\CentraStage\AEMAgent\AEMAgent.exe</Image>
 			<Image condition="begin with">C:\ProgramData\CentraStage\AEMAgent\</Image>
-			<Image condition="is">C:\Program Files\Microsoft AAD App Proxy Connector\ApplicationProxyConnectorService.exe</Image>
 			<!--SECTION: Microsoft-->
 			<Image condition="begin with">C:\ProgramData\Microsoft\Windows Defender\Platform\</Image>
 			<Image condition="end with">AppData\Local\Microsoft\Teams\current\Teams.exe</Image> <!--Microsoft: Teams-->
