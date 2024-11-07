@@ -305,9 +305,7 @@
 		<!-- https://www.first.org/resources/papers/conf2017/APT-Log-Analysis-Tracking-Attack-Tools-by-Audit-Policy-and-Sysmon.pdf -->
 
 		<!--DATA: UtcTime, ProcessGuid, ProcessId, Image, User, Protocol, Initiated, SourceIsIpv6, SourceIp, SourceHostname, SourcePort, SourcePortName, DestinationIsIpV6, DestinationIp, DestinationHostname, DestinationPort, DestinationPortName-->
-	<RuleGroup name="" groupRelation="or">
-		<NetworkConnect onmatch="include"/>
-	</RuleGroup>
+	<NetworkConnect onmatch="include"/>
 
 	<RuleGroup name="" groupRelation="or">
 		<NetworkConnect onmatch="exclude">
