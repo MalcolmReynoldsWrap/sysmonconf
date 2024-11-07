@@ -306,8 +306,7 @@
 
 		<!--DATA: UtcTime, ProcessGuid, ProcessId, Image, User, Protocol, Initiated, SourceIsIpv6, SourceIp, SourceHostname, SourcePort, SourcePortName, DestinationIsIpV6, DestinationIp, DestinationHostname, DestinationPort, DestinationPortName-->
 	<RuleGroup name="" groupRelation="or">
-		<NetworkConnect onmatch="include">
-		</NetworkConnect>
+		<NetworkConnect onmatch="include"/>
 	</RuleGroup>
 
 	<RuleGroup name="" groupRelation="or">
