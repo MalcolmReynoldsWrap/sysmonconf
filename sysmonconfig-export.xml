@@ -389,6 +389,17 @@
 			<DestinationPort name="RDP" condition="is">3389</DestinationPort> <!--Windows:RDP: Monitor admin connections-->
 			<DestinationPort name="VNC" condition="is">5800</DestinationPort> <!--VNC protocol: Monitor admin connections, often insecure, using hard-coded admin password-->
 			<DestinationPort name="VNC" condition="is">5900</DestinationPort> <!--VNC protocol Monitor admin connections, often insecure, using hard-coded admin password-->
+			<DestinationPort name="L33T" condition="is">1337</DestinationPort> <!--common ports for script kiddies-->
+			<DestinationPort name="L33T" condition="is">13370</DestinationPort> <!--common ports for script kiddies-->
+			<DestinationPort name="L33T" condition="is">13371</DestinationPort> <!--common ports for script kiddies-->
+			<DestinationPort name="L33T" condition="is">13372</DestinationPort> <!--common ports for script kiddies-->
+			<DestinationPort name="L33T" condition="is">13373</DestinationPort> <!--common ports for script kiddies-->
+			<DestinationPort name="L33T" condition="is">13374</DestinationPort> <!--common ports for script kiddies-->
+			<DestinationPort name="L33T" condition="is">13375</DestinationPort> <!--common ports for script kiddies-->
+			<DestinationPort name="L33T" condition="is">13376</DestinationPort> <!--common ports for script kiddies-->
+			<DestinationPort name="L33T" condition="is">13377</DestinationPort> <!--common ports for script kiddies-->
+			<DestinationPort name="L33T" condition="is">13378</DestinationPort> <!--common ports for script kiddies-->
+			<DestinationPort name="L33T" condition="is">13379</DestinationPort> <!--common ports for script kiddies-->
 			<DestinationPort name="Alert,Metasploit" condition="is">4444</DestinationPort>
 			<!--Ports: Proxy-->
 			<DestinationPort name="Proxy" condition="is">1080</DestinationPort> <!--Socks proxy port | Credit @ion-storm-->
